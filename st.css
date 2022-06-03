@@ -1,0 +1,45 @@
+body{
+    background-image: url("images/op.jpg");
+    font-weight: bold;
+    background-color: rgb(255, 0, 0, 0.5);
+    text-align:center;
+    background-position: center;
+
+}
+div{
+    border-radius: 7px;
+    border: solid 5px rgba(240, 96, 13, 0.5);
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(18, 19, 17, 0.5);
+    color: rgb(195, 228, 226);
+    text-align: center;
+    padding: 5px;
+    text-shadow: 5px;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(241, 223, 223);
+    color: rgb(228, 15, 15);
+    font-size: larger;
+    font-weight: bold;
+    border: outset 5px;
+}
+#hello{
+    margin-top: 100px;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+a:link{
+    color: aqua;
+}
+a:hover{
+    color: azure;
+}
+a{
+    color: rgb(0, 225, 255);
+}

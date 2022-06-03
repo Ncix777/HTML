@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128526; &#128525; &#128578;</title>
+    <link rel="shortcut icon" href="images/programming.png" type="image/png">
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div>
+        <h1 style="color: rgb(0, 255, 255);"><u>Login Here!</u></h1>
+       <div id="hello"><b> <form action="signin.php" method="post">
+        <!-- input type="text" name="name" placeholder="name"><br><strong>OR</strong--> <br>
+        Enter You Email <br><br>
+        <input type="email" required name="email" placeholder="www.abcd@gmail.com"><br><br>
+        Enter your password <br><br>
+        <input type="password" name="password" id="pass"> <br><br>
+        <input style="float: left;" type="checkbox" onclick="myFunction()"><strong style="float: left;"> Show Password </strong><br><br>
+        <input type="submit" value="SUBMIT"></form><br>
+        Don't have Account? <a href="out.html">SignUp</a>
+    </b></div>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("pass");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+</body>
+</html>
